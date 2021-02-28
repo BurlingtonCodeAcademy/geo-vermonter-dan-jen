@@ -4,7 +4,7 @@
     -info                   -direction buttons (n, s, w, e)
     -nav                    -score
 
-    -have a tracker component that keeps track of scoring / tracks button clicks and deducts points? or do we not need this because we could just do an event listener to deduct with every onclick?
+    -have a tracker component that keeps track of scoring / tracks button clicks and deducts points? or do we not need this because we could just do an event listener to deduct with every onClick?
 
 
 ----------Leaflet--------
