@@ -1,0 +1,47 @@
+--------basic structure------
+-have a different component for each part of page
+    -map                    -play buttons (start, guess, quit)
+    -info                   -direction buttons (n, s, w, e)
+    -nav                    -score
+
+    -have a tracker component that keeps track of scoring / tracks button clicks and deducts points? or do we not need this because we could just do an event listener to deduct with every onClick?
+
+
+----------Leaflet--------
+-explore leaflet more
+-leaflet pip (for keeping everything zoned within state of VT borders)
+
+
+--------random spot on map----------
+-random integer function for long/lat (?)
+
+
+--------buttons------
+-every time a direction button is clicked, score decreases by 1 (onClick)
+-enabling/disabling buttons
+
+----------random spot------------
+
+function randomSpot(min, max) {
+    return Math.random() * (max - min) + min;
+}
+
+
+min lat = 42.730315121762715
+max lat = 45.007561302382754
+min long = -71.51022535353107
+max long = -73.42613118833583
+
+
+function randomLat(min, max) {
+    return Math.random() * 
+}
+
+-----------------------------------------------------
+function randomSpot(min, max) {
+    return Math.random() * (max - min) + min;
+}
+
+let randomLat = function randomSpot(42.730315121762715, 45.007561302382754)
+let randomLon = function randomSpot(-71.51022535353107, -73.42613118833583)
+
